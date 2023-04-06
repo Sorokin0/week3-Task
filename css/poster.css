@@ -11,6 +11,51 @@ html {
     color: #151515;
 }
 
+.modal{
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(135, 206, 235, 0.6);
+    z-index: 2;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.modal-content {
+    background-color: rgb(135, 206, 235);
+    margin: 5% auto;
+    padding: 5rem;
+    width: 30%;
+    height: 70%;
+    border-radius: 1rem;
+    animation: zoom-in 1s;
+    
+}
+.modal-content h1 {
+    padding-top: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@keyframes zoom-in {
+    0% {transform: scale(0);}
+    100% {transform: scale(1);}
+}
+
+.closeBtn {
+    float: right;
+    cursor: pointer;
+    font-size: 2rem;
+    color: rgb(47, 72, 82);
+}
+
+.movie-poster-modal {
+    width: 300px;
+    border-radius: 10px;
+}
+
 .movie-card {
     margin-top: 5rem;
     height: 800px;
