@@ -27,8 +27,8 @@ html {
     background-color: rgb(135, 206, 235);
     margin: 5% auto;
     padding: 5rem;
-    width: 30%;
-    height: 70%;
+    width: 600px;
+    height: 700px;
     border-radius: 1rem;
     animation: zoom-in 1s;
     
